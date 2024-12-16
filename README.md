@@ -1,5 +1,7 @@
 # SalaryTracker
 
+https://chromewebstore.google.com/detail/salary-tracker/lcihadbebkmmonlkjlbhnfdafnhjdeko
+
 Overview
 
 The Salary Tracker extension allows you to easily track your daily salary by logging your earnings automatically or manually. This simple tool helps you stay informed about how much you’re earning each day, providing valuable insights into your income over time.
