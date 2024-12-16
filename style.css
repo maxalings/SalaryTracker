@@ -1,0 +1,133 @@
+/* General styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  color: #333; /* Neutral text color */
+  background-color: #f3f3f3; /* Light background */
+  margin: 0;
+  padding: 0;
+  width: 450px; /* Adjust width for the popup */
+  height: 518px; /* Adjust height for the popup */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  box-sizing: border-box;
+  border-radius: 15px; /* Rounded corners for the popup */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for emphasis */
+}
+/* Set the size of the popup */
+
+/* Logo color styling */
+h2#greet {
+  color: #ffbf00;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styling for the earnings counter */
+h3#totalCounter {
+  font-size: 4em;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 30px;
+  padding: 40px;
+  border: 2px solid #f3d57e;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Form container */
+form#rateForm {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+/* Labels */
+form#rateForm label {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Input fields */
+form#rateForm input[type="number"],
+form#rateForm input[list],
+form#rateForm input[type="datetime"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1em;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+form#rateForm input[type="number"]:focus,
+form#rateForm input[list]:focus,
+form#rateForm input[type="datetime"]:focus {
+  border-color: #f3d57e;
+  box-shadow: 0 0 5px rgba(243, 213, 126, 0.8);
+}
+
+/* Submit button */
+form#rateForm button[type="submit"] {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #edbe31;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form#rateForm button[type="submit"]:hover {
+  background-color: #e2c060;
+}
+
+/* Time input styling to match other form elements */
+input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="time"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
+}
+
+/* Select dropdown styling to match other form elements */
+form#rateForm select {
+  width: calc(100%);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1em;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background-color: white;
+  cursor: pointer;
+}
+
+form#rateForm select:focus {
+  border-color: #f3d57e;
+  box-shadow: 0 0 5px rgba(243, 213, 126, 0.8);
+}

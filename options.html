@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work Details Form</title>
+  <script src="options.js"></script>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <h1>Work Details Form</h1>
+  <form action="/submit" method="POST">
+    <!-- Monthly Salary -->
+    <label for="salary">Monthly Salary:</label>
+    <input
+      type="number"
+      id="salary"
+      name="salary"
+      placeholder="00.00 $"
+      step="0.01"
+      required>
+    <br><br>
+
+    <!-- Days Worked Per Month -->
+    <label for="days">Days Worked Per Month:</label>
+    <input
+      type="number"
+      id="days"
+      name="days"
+      placeholder="e.g. 21 days"
+      min="1"
+      max="31"
+      required>
+    <br><br>
+
+    <!-- Hours Worked Per Day -->
+    <label for="hours">Hours Worked Per Day:</label>
+    <input
+      type="number"
+      id="hours"
+      name="hours"
+      placeholder="e.g. 8 hours"
+      min="1"
+      max="24"
+      required>
+    <br><br>
+
+    <button id="button" type="button">Calculate</button>
+  </form>
+
+  <h4 id="h4">Your rate per hour is:</h4>
+  <h4 id="resultRate"></h4>
+</body>
+</html>

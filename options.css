@@ -1,0 +1,58 @@
+/* add styling here */
+
+/* Add styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+/* Style the form */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style input fields */
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the button */
+button {
+    background-color: #edbe31;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Style for the result headings */
+h4 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+/* Style for the result rate */
+#resultRate {
+    font-weight: bold;
+    color: #218838; /* Blue color for emphasis */
+}
